@@ -1,0 +1,80 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 50%;
+    height: auto;
+    margin: 50px auto;
+    background: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 hsl(216, 54%, 18%), 0 6px 20px 0 hsl(215, 63%, 17%);
+}
+
+.nft {
+    width: 90%;
+    height: auto;
+    margin: 15px 15px 0 15px;
+    border-radius: 10px;
+}
+
+.title-desc {
+    font-family: outfit;
+    text-align: left;
+    margin: 0 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.desc {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.second {
+    display: flex;
+    max-width: 100%;
+}
+
+.p1,
+.p2 {
+    flex: 1 1 0;
+}
+
+.p1 {
+    font-weight: 400;
+}
+
+.p2 {
+    text-align: right;
+    margin-right: 10px;
+    font-weight: 300;
+    color: hsl(220, 15%, 55%);
+}
+
+span {
+    color: hsl(220, 15%, 55%);
+    margin-top: 0;
+}
+
+svg {
+    margin: 0 5px 0 0;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.avatar {
+    width: 30px;
+    height: auto;
+}
